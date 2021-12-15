@@ -1,0 +1,269 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.logo {
+    width: 130px;
+    fill: white;
+}
+
+nav ul li a {
+    color: white;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 5px;
+}
+
+nav ul ul a {
+    color: black;
+    padding: 10px 10px !important;
+}
+
+nav ul ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul ul li a {
+    margin: 0 10px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+a:hover {
+    color: #29c458;
+}
+
+a:hover img {
+    background-color: #29c458;
+}
+
+a img {
+    background-color: white;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 80px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.barra-navegacao {
+    background-color: black;
+}
+
+.sep-navegacao {
+    margin-left: 35px;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow {
+    margin-left: 5px;
+    height: 10px;
+    transform: rotate(180deg);
+}
+
+.arrow-else {
+    margin-left: 5px;
+    height: 10px;
+}
+
+.ban-1 {
+    height: 630px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: #F46EBE;
+}
+
+.ban-1 .content {
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container {
+    padding: 0;
+    width: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-ban-1 {
+    position: absolute;
+    object-fit: fill;
+    height: 70%;
+}
+
+.ban-2 {
+    height: 630px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: rgb(41, 65, 171);
+    background-image: url("https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg");
+    background-repeat: none;
+}
+
+.ban-2 .content {
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin-top: 180px;
+    color: #1ed760;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.ban-2 .content * {
+    margin-bottom: 50px;
+}
+
+.ban-2 button {
+    border: none;
+    font-size: 0.8em;
+    font-weight: 600;
+    background-color: #1ed760;
+    border-radius: 25px;
+    width: 220px;
+    height: 45px;
+    
+}
+
+.ban-2 button:hover {
+    background-color: #83f3ab;
+    transform: scale(1.05   );
+}
+.content a {
+    text-decoration: underline;   
+}
+
+h1 {
+    font-size: 40px !important;
+    font-weight: 700;
+}
+
+.app-img-gplay {
+    width: 150px;
+}
+
+.links-lojas {
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+
+footer .navegacao {
+    display: flex;
+    font-size: 0.8em;
+    padding: 50px 0;
+    width: 980px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .rodape-inferior {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 980px;
+}
+
+.menu-inferior {
+    width: 980px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    font-size: 0.6em;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu-inferior ul {
+    display: flex;
+    justify-content: start;
+}
+
+.menu-inferior ul li {
+    margin-right: 20px;
+}
+
+footer .navegacao li {
+    margin-bottom: 15px;
+}
+
+.container-lateral {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-lateral>div {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-bottom: 25px;
+}
+
+footer navegacao * {
+    align-items: start;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    color: rgb(179, 179, 179)
+}
